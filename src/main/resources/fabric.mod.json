@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "betterrandom",
+  "version": "${version}",
+  "name": "Better Random",
+  "description": "Replaces calls to java.util.Random with a better random generator",
+  "authors": [
+    "manyrandomthings"
+  ],
+  "contact": {
+    "homepage": "https://github.com/manyrandomthings/better-random",
+    "sources": "https://github.com/manyrandomthings/better-random"
+  },
+  "license": "LGPL-3.0",
+  "environment": "*",
+  "entrypoints": {
+    "preLaunch": [
+      "betterrandom.BetterRandomMod"
+    ]
+  },
+  "mixins": [
+    "betterrandom.mixins.json"
+  ],
+  "depends": {
+    "java": ">=17",
+    "minecraft": "1.18.x",
+    "fabricloader": ">=0.12.5"
+  }
+}

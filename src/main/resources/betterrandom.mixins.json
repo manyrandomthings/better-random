@@ -1,0 +1,21 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "betterrandom.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "ConstructorRandomMixins",
+    "EnchantmentScreenHandlerMixin",
+    "ExplosionMixin",
+    "GeneratorOptionsMixin",
+    "LootContextBuilderMixin",
+    "MinecraftServerMixin",
+    "PlayerEntityMixin",
+    "ServerPlayerEntityMixin",
+    "SpreadPlayersCommandMixin",
+    "StaticRandomMixins"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
